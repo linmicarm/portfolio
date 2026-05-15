@@ -8,7 +8,7 @@
 
 ## ✦ live site
 
-🔗 [iyashicoded.com](https://iyashicoded.com)
+🔗 [iyashicoded.com]([https://iyashicoded.com](https://portfolio-ten-weld-87.vercel.app])
 
 ---
 
