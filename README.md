@@ -15,9 +15,11 @@
 
 ## ✦ about
 
-A fully hand-coded personal portfolio site built with vanilla HTML, CSS, and JavaScript, no frameworks, no build tools, no dependencies. Every section, layout, animation, and interaction written from scratch with care.
-
-The design system is built around a warm pastel palette, editorial serif typography, and a grainy textured background that gives the site a soft, intentional feel distinct from typical developer portfolios.
+A fully hand-coded personal portfolio site built with vanilla HTML, CSS, and JavaScript — no frameworks, no build tools, no dependencies. Every section, layout, animation, and interaction written from scratch with care.
+ 
+The project started in **Figma**, where a complete hi-fi wireframe was designed first — working out the layout, color system, typography, and component hierarchy before a single line of code was written. The wireframe served as the single source of truth throughout the build, keeping the design intentional and consistent from section to section.
+ 
+The final design system is built around a warm pastel palette, editorial serif typography, and a grainy textured background that gives the site a soft, handcrafted feel distinct from typical developer portfolios.
 
 ---
 
@@ -32,6 +34,18 @@ The design system is built around a warm pastel palette, editorial serif typogra
 | Services | `#bdd98f` green | What I offer + how I can help |
 | Work With Me | `#86daec` blue | Who I work best with |
 | Contact | `#c1a5f0` purple | Form + links |
+
+---
+
+## ✦ design process
+ 
+This site was designed before it was built — a deliberate choice that kept every decision intentional.
+ 
+1. **Hi-fi wireframe in Figma** — full layout, color palette, typography, and component design across all 7 sections before any code was written
+2. **Design system first** — colors, spacing tokens, and font pairings defined upfront as CSS custom properties, mirroring the Figma variables
+3. **Section by section build** — each section coded to match the wireframe, with improvements and refinements made along the way
+4. **Iterative polish** — copy, spacing, interactions, and accessibility layered in after the structural build was complete
+🎨 [view the figma wireframe →](https://www.figma.com/design/tBXeDqaQgX65yOaKjybAnK/Portfolio-Hi-Fi-Wireframe?t=RfJQGBtUeBVIm6wq-0)
 
 ---
 
