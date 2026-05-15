@@ -1,0 +1,736 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO -->
+    <title>michelle armstrong — iyashicoded | full-stack software engineer</title>
+    <meta name="description" content="michelle armstrong is a full-stack software engineer building thoughtful, beautifully-crafted digital experiences. available for freelance, collaboration, and full-time opportunities." />
+    <meta name="keywords" content="full-stack engineer, software engineer, web developer, ui ux, react, typescript, next.js, portfolio" />
+    <meta name="author" content="Michelle Armstrong" />
+
+    <!-- Open Graph (link previews on Slack, Twitter, iMessage etc.) -->
+    <meta property="og:type"        content="website" />
+    <meta property="og:url"         content="https://iyashicoded.com" />
+    <meta property="og:title"       content="michelle armstrong — iyashicoded" />
+    <meta property="og:description" content="full-stack software engineer building thoughtful digital experiences with clean code and intentional design." />
+    <meta property="og:image"       content="https://iyashicoded.com/og-image.png" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card"        content="summary_large_image" />
+    <meta name="twitter:title"       content="michelle armstrong — iyashicoded" />
+    <meta name="twitter:description" content="full-stack software engineer building thoughtful digital experiences." />
+    <meta name="twitter:image"       content="https://iyashicoded.com/og-image.png" />
+
+    <!-- Favicon — i for iyashicoded on pink circle -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23ffaad3'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='18' font-weight='700' font-family='Georgia%2C serif' font-style='italic' fill='%23faf3ea'%3Ei%3C/text%3E%3C/svg%3E" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <!-- ─── FLOATING GLASS HEADER ─────────────────────────────── -->
+    <header id="header">
+      <a href="#home" class="logo">iyashicoded</a>
+      <nav>
+        <a href="#about">about</a>
+        <span class="nav-divider">|</span>
+        <a href="#method">how i work</a>
+        <span class="nav-divider">|</span>
+        <a href="#projects">projects</a>
+        <span class="nav-divider">|</span>
+        <a href="#services">services</a>
+        <span class="nav-divider">|</span>
+        <a href="#work">work with me</a>
+        <span class="nav-divider">|</span>
+        <a href="#contact">contact</a>
+      </nav>
+      <a href="#contact" class="btn-cta">let's work together</a>
+    </header>
+
+    <main>
+
+      <!-- ══════════════════════════════════════════════════════
+           SECTION 1 — HERO  (cream)
+           ══════════════════════════════════════════════════════ -->
+      <div class="hero-bg">
+      <section class="hero" id="home">
+
+        <div class="intro-card">
+          <h1 class="intro-headline">
+            hey, i'm
+            <span class="intro-name">michelle.</span>
+          </h1>
+          <p class="intro-role">full-stack software engineer</p>
+          <div class="intro-body">
+            <p>i build full-stack digital products from database to browser, designed to feel as good as they function.</p>
+            <p>i care about usability, aesthetics, and the kind of emotional intentionality that makes software feel genuinely human.</p>
+            <p>good engineering and beautiful design aren't a trade-off. for me, they're the standard.</p>
+          </div>
+          <div class="intro-actions">
+            <a href="#projects" class="btn-primary">check out my work</a>
+            <a href="resume.pdf" class="btn-secondary">view my resume</a>
+          </div>
+        </div>
+
+        <div class="cards-grid">
+          <a href="#about" class="nav-card">
+            <span class="card-plus">+</span>
+            <span class="card-title">about me</span>
+            <p class="card-desc">the person behind the pixels</p>
+          </a>
+          <a href="#method" class="nav-card">
+            <span class="card-plus">+</span>
+            <span class="card-title">how i work</span>
+            <p class="card-desc">design philosophy, process + intention</p>
+          </a>
+          <a href="#projects" class="nav-card">
+            <span class="card-plus">+</span>
+            <span class="card-title">projects + case studies</span>
+            <p class="card-desc">stories told through code and design</p>
+          </a>
+          <a href="#services" class="nav-card">
+            <span class="card-plus">+</span>
+            <span class="card-title">services</span>
+            <p class="card-desc">creative development for thoughtful brands</p>
+          </a>
+          <a href="#work" class="nav-card">
+            <span class="card-plus">+</span>
+            <span class="card-title">work with me</span>
+            <p class="card-desc">let's build something intentional together</p>
+          </a>
+          <a href="#contact" class="nav-card">
+            <span class="card-plus">+</span>
+            <span class="card-title">get in touch</span>
+            <p class="card-desc">my inbox is always open</p>
+          </a>
+        </div>
+
+      </section>
+      </div>
+
+      <!-- ══════════════════════════════════════════════════════
+           SECTION 2 — ABOUT  (pink)
+           ══════════════════════════════════════════════════════ -->
+      <section class="about" id="about">
+        <div class="about-inner">
+
+          <div class="about-card reveal">
+            <h1>who am <em>i</em>?</h1>
+            <h2>building software with softness and intention</h2>
+            <p>i'm michelle, a full-stack software engineer with a deep love for thoughtful systems, cozy aesthetics, and interfaces that feel genuinely good to use.</p>
+            <p>i believe great software isn't just functional. it's warm, intentional, and built with the people who use it firmly in mind. clean architecture, beautiful interfaces, and human-centered design aren't separate goals. they're the same goal.</p>
+            <p>when i'm not coding, you'll find me deep in iyashikei anime, hunting for the perfect matcha latte, or collecting visual inspiration from cozy cafés around the city.</p>
+          </div>
+
+          <div class="about-minis">
+            <div class="about-mini reveal"><span class="about-mini-label">currently learning</span> : react, typescript + tailwind css</div>
+            <div class="about-mini reveal"><span class="about-mini-label">favorite build</span> : cozy anime tracking app</div>
+            <div class="about-mini reveal"><span class="about-mini-label">creative fuel</span> : video game osts, matcha lattes + shoujo manga</div>
+            <div class="about-mini reveal"><span class="about-mini-label">design values</span> : clarity, warmth + usability</div>
+            <div class="about-mini reveal"><span class="about-mini-label">dream project</span> : a beautifully designed anime journaling app</div>
+            <div class="about-mini reveal"><span class="about-mini-label">currently watching</span> : witch hat atelier + the apothecary diaries</div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════
+           SECTION 3 — HOW I WORK  (orange)
+           ══════════════════════════════════════════════════════ -->
+      <section class="method" id="method">
+        <div class="method-inner">
+
+          <div class="method-card reveal">
+            <h1>the <em>softgirl</em> engineer.</h1>
+            <h2>my personal philosophy on what it means to build well.</h2>
+            <p>i take beauty and utility seriously, not just as a clever pairing, but because i genuinely believe both matter.</p>
+            <p>i grew up surrounded by technology that worked, but felt cold, impersonal, and alienating. i want to build the opposite: software that feels thoughtful, welcoming, and deeply considered from the inside out.</p>
+            <p>the softgirl engineer isn't just an aesthetic. it's a lens that shapes everything i build, who i build for, and what i believe quality actually means.</p>
+          </div>
+
+          <div class="method-minis">
+            <div class="method-mini reveal">
+              <h3>aesthetic-first thinking</h3>
+              <p>i believe software can be genuinely beautiful. color, spacing, typography, and motion aren't just decorative choices. they shape how people feel inside a product. good design creates clarity, comfort, and trust.</p>
+            </div>
+            <div class="method-mini reveal">
+              <h3>designing for the margins</h3>
+              <p>i think deeply about who gets treated as the "default" user, and who gets pushed to the edges. the best products are built with a wider range of people, experiences, and needs in mind from the very beginning.</p>
+            </div>
+            <div class="method-mini reveal">
+              <h3>accessibility as default</h3>
+              <p>accessibility isn't a checklist i revisit at the end of a project. it's part of how i think from the beginning. everyone deserves a web that works for them.</p>
+            </div>
+            <div class="method-mini reveal">
+              <h3>cross-cultural lens</h3>
+              <p>i care about how interfaces translate across languages, cultures, and contexts. software that works well for one group is a starting point, not the final goal.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════
+           SECTION 4 — PROJECTS  (yellow + carousel + modals)
+           ══════════════════════════════════════════════════════ -->
+      <section class="projects" id="projects">
+        <div class="projects-inner">
+
+          <div class="projects-card reveal">
+            <h1>thoughtful systems with a <em>human</em> touch.</h1>
+            <p class="projects-sub">here's a look at some of the things i've been building. each one is a little piece of how i think, design, and engineer.</p>
+          </div>
+
+          <div class="carousel-wrapper">
+            <button class="carousel-btn" id="prev-btn" aria-label="Previous">&#8249;</button>
+
+            <div class="carousel-track-outer">
+              <div class="carousel-track" id="carousel-track">
+
+                <!-- Card 1: hoshii -->
+                <div class="project-mini" data-project="hoshii">
+                  <img src="images/hoshii.jpg" alt="hoshii project" />
+                  <div class="project-mini-body">
+                    <h3>hoshii</h3>
+                    <p>a cozy anime + manga tracking app focused on emotional journaling and thoughtful discovery.</p>
+                  </div>
+                </div>
+
+                <!-- Card 2: mochiboard -->
+                <div class="project-mini" data-project="mochiboard">
+                  <img src="images/mochiboard.jpg" alt="mochiboard project" />
+                  <div class="project-mini-body">
+                    <h3>mochiboard</h3>
+                    <p>a soft productivity dashboard for creatives.</p>
+                  </div>
+                </div>
+
+                <!-- Card 3: café compass -->
+                <div class="project-mini" data-project="cafecompass">
+                  <img src="images/cafecompass.jpg" alt="café compass project" />
+                  <div class="project-mini-body">
+                    <h3>café compass</h3>
+                    <p>a café discovery app for finding cozy workspaces.</p>
+                  </div>
+                </div>
+
+                <!-- Card 4: softshelf -->
+                <div class="project-mini" data-project="softshelf">
+                  <img src="images/softshelf.jpg" alt="softshelf project" />
+                  <div class="project-mini-body">
+                    <h3>softshelf</h3>
+                    <p>a digital bookshelf + reading journal.</p>
+                  </div>
+                </div>
+
+                <!-- Card 5: petalfm -->
+                <div class="project-mini" data-project="petalfm">
+                  <img src="images/petalfm.jpg" alt="petalfm project" />
+                  <div class="project-mini-body">
+                    <h3>petalfm</h3>
+                    <p>lo-fi + ambient music discovery app.</p>
+                  </div>
+                </div>
+
+                <!-- Card 6: lantern -->
+                <div class="project-mini" data-project="lantern">
+                  <img src="images/lantern.jpg" alt="lantern project" />
+                  <div class="project-mini-body">
+                    <h3>lantern</h3>
+                    <p>a multilingual community platform for niche hobby groups and small creative communities.</p>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <button class="carousel-btn" id="next-btn" aria-label="Next">&#8250;</button>
+          </div>
+
+          <div class="carousel-dots" id="carousel-dots"></div>
+
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════
+           SECTION 5 — SERVICES  (green)
+           ══════════════════════════════════════════════════════ -->
+      <section class="services" id="services">
+        <div class="services-inner">
+
+          <div class="services-card reveal">
+            <h1>thoughtful engineering for <em>intentional</em> products.</h1>
+            <p>i partner with founders, small teams, and creative studios who want products built right: engineered thoughtfully, designed intentionally, and centered on the humans who actually use them.</p>
+          </div>
+
+          <div class="services-minis">
+            <div class="services-mini reveal">
+              <div class="service-icon-wrap"><span class="service-icon">⊛</span></div>
+              <h3>web development</h3>
+              <p>full-stack websites and applications built with performance, scalability, and thoughtful user experience in mind, from first commit to deployment.</p>
+            </div>
+            <div class="services-mini reveal">
+              <div class="service-icon-wrap"><span class="service-icon">✦</span></div>
+              <h3>ui/ux implementation</h3>
+              <p>i turn interfaces into polished, responsive experiences with careful attention to spacing, typography, interaction, and motion that feels intentional rather than distracting.</p>
+            </div>
+            <div class="services-mini reveal">
+              <div class="service-icon-wrap"><span class="service-icon">◈</span></div>
+              <h3>accessibility auditing</h3>
+              <p>accessibility is built into how i think about the web. i provide wcag-focused audits, keyboard and screen reader testing, and practical remediation guidance.</p>
+            </div>
+            <div class="services-mini reveal">
+              <div class="service-icon-wrap"><span class="service-icon">⟨⟩</span></div>
+              <h3>api + backend design</h3>
+              <p>clean, maintainable backend systems and well-documented apis designed for clarity, scalability, and long-term sustainability.</p>
+            </div>
+            <div class="services-mini reveal">
+              <div class="service-icon-wrap"><span class="service-icon">⌁</span></div>
+              <h3>consulting + code review</h3>
+              <p>whether you need architecture feedback, frontend polish, or a second set of eyes on a technical decision, i offer thoughtful collaboration rooted in real-world experience.</p>
+            </div>
+            <div class="services-mini reveal">
+              <div class="service-icon-wrap"><span class="service-icon">♡</span></div>
+              <h3>ongoing collaboration</h3>
+              <p>i love partnering with founders and small teams long-term to help shape products thoughtfully over time, not just ship features and disappear.</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════
+           SECTION 6 — WORK WITH ME  (blue)
+           ══════════════════════════════════════════════════════ -->
+      <section class="work" id="work">
+        <div class="work-inner">
+
+          <div class="work-card reveal">
+            <h1>you shouldn't have to choose between <em>beauty</em> and functionality.</h1>
+            <p>some people come to me for beautiful, intentional design. others need a reliable engineer who ships clean, scalable code. the best projects need both, and that's exactly where i work best.</p>
+            <p class="work-subline">how can i help you today?</p>
+          </div>
+
+          <div class="work-minis">
+            <div class="work-mini reveal">
+              <div class="work-icon-wrap"><span class="work-icon">✦</span></div>
+              <h3>you need a beautiful website</h3>
+              <p>a site that feels intentional, loads quickly, and leaves an impression. not just another template with different colors and a logo swapped in.</p>
+              <p class="work-tag">best for: personal brands • portfolios • creative studios</p>
+            </div>
+            <div class="work-mini reveal">
+              <div class="work-icon-wrap"><span class="work-icon">⌁</span></div>
+              <h3>you want both</h3>
+              <p>i design in figma, think in systems, and build full-stack experiences with long-term maintainability in mind. you don't have to choose between aesthetics and engineering depth.</p>
+              <p class="work-tag">best for: startups • founders • thoughtful digital products</p>
+            </div>
+            <div class="work-mini reveal">
+              <div class="work-icon-wrap"><span class="work-icon">⟨⟩</span></div>
+              <h3>you need a reliable engineer</h3>
+              <p>someone who communicates clearly, ships thoughtfully, and writes code that still makes sense months after launch, not just the day it goes live.</p>
+              <p class="work-tag">best for: growing teams • production apps • scalable systems</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ══════════════════════════════════════════════════════
+           SECTION 7 — CONTACT  (purple)
+           ══════════════════════════════════════════════════════ -->
+      <section class="contact" id="contact">
+        <div class="contact-inner">
+
+          <div class="contact-card reveal">
+            <h1><em>good</em> products start with <em>good</em> conversations.</h1>
+            <p>whether you have a fully-formed brief, or just a spark of an idea, i'd love to hear what you're building. i'm especially drawn to projects that center real people, value intentional design, and care about creating experiences that feel genuinely human. let's make something worth being proud of!</p>
+          </div>
+
+          <div class="contact-mini reveal">
+            <h2>get in touch:</h2>
+            <form action="https://formspree.io/f/mpqbvlvr" method="POST">
+              <label for="name">name</label>
+              <input type="text" id="name" name="name" placeholder="your name" />
+
+              <label for="email">email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" />
+
+              <label for="message">message</label>
+              <textarea id="message" name="message" rows="5" placeholder="what are you building? what do you need?"></textarea>
+
+              <button type="submit">start the conversation</button>
+            </form>
+          </div>
+
+          <div class="contact-mini reveal">
+            <h2>say <em>hello!</em></h2>
+            <p>currently open to freelance projects, creative collaborations, and thoughtful opportunities.</p>
+            <ul class="contact-links">
+              <li class="contact-link-item">
+                <span class="contact-link-icon">✉</span>
+                <a href="mailto:linmicarm@gmail.com">linmicarm@gmail.com</a>
+              </li>
+              <li class="contact-link-item">
+                <span class="contact-link-icon">in</span>
+                <a href="https://linkedin.com/in/linmicarm" target="_blank" rel="noopener">linkedin.com/in/linmicarm</a>
+              </li>
+              <li class="contact-link-item">
+                <span class="contact-link-icon contact-link-icon--gh">&#9900;</span>
+                <a href="https://github.com/linmicarm" target="_blank" rel="noopener">github.com/linmicarm</a>
+              </li>
+              <li class="contact-link-item">
+                <span class="contact-link-icon">✦</span>
+                <a href="resume.pdf">check out my resume</a>
+              </li>
+              <li class="contact-link-item">
+                <span class="contact-link-icon">⊛</span>
+                <a href="https://iyashicoded.com">iyashicoded.com</a>
+              </li>
+            </ul>
+            <p class="contact-closing">thank you for stopping by! let's build something beautiful together. ✨</p>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ─── FOOTER ─────────────────────────────────────────────── -->
+    <footer>
+      <p>&copy; 2026 michelle armstrong.</p>
+      <p>built with care and intention.</p>
+      <a href="#home">back to top ↑</a>
+    </footer>
+
+    <!-- ══════════════════════════════════════════════════════════
+         PROJECT MODALS
+         ══════════════════════════════════════════════════════════ -->
+
+    <!-- hoshii -->
+    <div class="modal-overlay" id="modal-hoshii" role="dialog" aria-modal="true" aria-label="hoshii project">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img src="images/hoshii.jpg" alt="hoshii" />
+        <div class="modal-body">
+          <h3>hoshii</h3>
+          <p class="modal-short">a cozy anime + manga tracking app focused on emotional journaling, aesthetic organization, and thoughtful discovery.</p>
+          <p class="modal-long">designed and developed a full-stack anime tracking platform centered around cozy ux, emotional organization, and thoughtful interaction design. built responsive interfaces, scalable backend systems, and personalized media tracking features with accessibility and visual polish in mind.</p>
+          <div class="modal-tags">
+            <span class="modal-tag">next.js</span>
+            <span class="modal-tag">typescript</span>
+            <span class="modal-tag">postgresql</span>
+            <span class="modal-tag">tailwindcss</span>
+            <span class="modal-tag">prisma</span>
+            <span class="modal-tag">framer motion</span>
+            <span class="modal-tag">supabase</span>
+          </div>
+          <div class="modal-actions">
+            <a href="https://hoshii.vercel.app" class="btn-live">live</a>
+            <a href="https://github.com/linmicarm/hoshii" class="btn-code">code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- mochiboard -->
+    <div class="modal-overlay" id="modal-mochiboard" role="dialog" aria-modal="true" aria-label="mochiboard project">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img src="images/mochiboard.jpg" alt="mochiboard" />
+        <div class="modal-body">
+          <h3>mochiboard</h3>
+          <p class="modal-short">a soft productivity dashboard for creatives who want structure without sacrificing warmth.</p>
+          <p class="modal-long">built a customizable productivity dashboard with drag-and-drop widgets, mood tracking, task management, and a cozy visual design system. focused on making productivity tools feel approachable and joyful rather than clinical and stressful.</p>
+          <div class="modal-tags">
+            <span class="modal-tag">react</span>
+            <span class="modal-tag">typescript</span>
+            <span class="modal-tag">tailwindcss</span>
+            <span class="modal-tag">dnd kit</span>
+            <span class="modal-tag">zustand</span>
+            <span class="modal-tag">vite</span>
+          </div>
+          <div class="modal-actions">
+            <a href="https://mochiboard.vercel.app" class="btn-live">live</a>
+            <a href="https://github.com/linmicarm/mochiboard" class="btn-code">code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- café compass -->
+    <div class="modal-overlay" id="modal-cafecompass" role="dialog" aria-modal="true" aria-label="café compass project">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img src="images/cafecompass.jpg" alt="café compass" />
+        <div class="modal-body">
+          <h3>café compass</h3>
+          <p class="modal-short">a café discovery app for finding cozy, wifi-friendly workspaces near you.</p>
+          <p class="modal-long">designed and built a location-based café finder with filtering by vibe, wifi quality, noise level, and outlet availability. integrated maps api, user reviews, and saved collections so remote workers and creatives can always find their perfect spot.</p>
+          <div class="modal-tags">
+            <span class="modal-tag">next.js</span>
+            <span class="modal-tag">google maps api</span>
+            <span class="modal-tag">tailwindcss</span>
+            <span class="modal-tag">mongodb</span>
+            <span class="modal-tag">node.js</span>
+          </div>
+          <div class="modal-actions">
+            <a href="https://cafecompass.vercel.app" class="btn-live">live</a>
+            <a href="https://github.com/linmicarm/cafe-compass" class="btn-code">code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- softshelf -->
+    <div class="modal-overlay" id="modal-softshelf" role="dialog" aria-modal="true" aria-label="softshelf project">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img src="images/softshelf.jpg" alt="softshelf" />
+        <div class="modal-body">
+          <h3>softshelf</h3>
+          <p class="modal-short">a digital bookshelf and reading journal for people who treat reading as a ritual.</p>
+          <p class="modal-long">built a personal reading tracker with shelf organization, reading progress, emotional annotations, and a journaling layer for capturing how books made you feel. designed with a warm, editorial aesthetic that mirrors the experience of a beloved physical bookshelf.</p>
+          <div class="modal-tags">
+            <span class="modal-tag">react</span>
+            <span class="modal-tag">typescript</span>
+            <span class="modal-tag">open library api</span>
+            <span class="modal-tag">supabase</span>
+            <span class="modal-tag">tailwindcss</span>
+          </div>
+          <div class="modal-actions">
+            <a href="https://softshelf.vercel.app" class="btn-live">live</a>
+            <a href="https://github.com/linmicarm/softshelf" class="btn-code">code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- petalfm -->
+    <div class="modal-overlay" id="modal-petalfm" role="dialog" aria-modal="true" aria-label="petalfm project">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img src="images/petalfm.jpg" alt="petalfm" />
+        <div class="modal-body">
+          <h3>petalfm</h3>
+          <p class="modal-short">a lo-fi + ambient music discovery app for focus, rest, and creative flow.</p>
+          <p class="modal-long">designed and developed a music discovery platform curated around mood and aesthetic: lo-fi beats, ambient soundscapes, and study playlists. integrated streaming apis, built custom audio player controls, and created a visually immersive listening experience.</p>
+          <div class="modal-tags">
+            <span class="modal-tag">react</span>
+            <span class="modal-tag">typescript</span>
+            <span class="modal-tag">spotify api</span>
+            <span class="modal-tag">tailwindcss</span>
+            <span class="modal-tag">framer motion</span>
+          </div>
+          <div class="modal-actions">
+            <a href="https://petalfm.vercel.app" class="btn-live">live</a>
+            <a href="https://github.com/linmicarm/petalfm" class="btn-code">code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- lantern -->
+    <div class="modal-overlay" id="modal-lantern" role="dialog" aria-modal="true" aria-label="lantern project">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img src="images/lantern.jpg" alt="lantern" />
+        <div class="modal-body">
+          <h3>lantern</h3>
+          <p class="modal-short">a multilingual community platform designed for niche hobby groups and small creative communities.</p>
+          <p class="modal-long">built a community platform with multilingual support, discussion boards, event coordination, and resource sharing, designed for smaller, more intimate communities often underserved by mainstream social platforms. prioritized inclusive design and cross-cultural accessibility throughout.</p>
+          <div class="modal-tags">
+            <span class="modal-tag">next.js</span>
+            <span class="modal-tag">typescript</span>
+            <span class="modal-tag">postgresql</span>
+            <span class="modal-tag">prisma</span>
+            <span class="modal-tag">i18n</span>
+            <span class="modal-tag">tailwindcss</span>
+            <span class="modal-tag">supabase</span>
+          </div>
+          <div class="modal-actions">
+            <a href="https://lantern-app.vercel.app" class="btn-live">live</a>
+            <a href="https://github.com/linmicarm/lantern" class="btn-code">code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══════════════════════════════════════════════════════════
+         JAVASCRIPT
+         ══════════════════════════════════════════════════════════ -->
+    <script>
+      /* ── Glass header on scroll ─────────────────────────── */
+      const header = document.getElementById('header');
+      window.addEventListener('scroll', () => {
+        header.classList.toggle('scrolled', window.scrollY > 40);
+      }, { passive: true });
+
+      /* ── Active nav highlight ───────────────────────────── */
+      const navLinks = document.querySelectorAll('nav a');
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            navLinks.forEach(l => l.classList.remove('active'));
+            const match = document.querySelector(`nav a[href="#${entry.target.id}"]`);
+            if (match) match.classList.add('active');
+          }
+        });
+      }, { threshold: 0.35 });
+      document.querySelectorAll('section[id]').forEach(s => sectionObserver.observe(s));
+
+      /* ── Scroll-reveal ──────────────────────────────────── */
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+      document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+      /* ── Carousel ───────────────────────────────────────── */
+      const track    = document.getElementById('carousel-track');
+      const prevBtn  = document.getElementById('prev-btn');
+      const nextBtn  = document.getElementById('next-btn');
+      const dotsWrap = document.getElementById('carousel-dots');
+      const cards    = Array.from(track.querySelectorAll('.project-mini'));
+      const VISIBLE  = 3;
+      const maxIndex = cards.length - VISIBLE;
+      let current    = 0;
+
+      // Build dots
+      for (let i = 0; i <= maxIndex; i++) {
+        const dot = document.createElement('button');
+        dot.className = 'carousel-dot' + (i === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', `Go to slide ${i + 1}`);
+        dot.addEventListener('click', () => goTo(i));
+        dotsWrap.appendChild(dot);
+      }
+
+      function getCardWidth() {
+        return cards[0].offsetWidth + 20; // 20 = gap
+      }
+
+      function goTo(index) {
+        current = Math.max(0, Math.min(index, maxIndex));
+        track.style.transform = `translateX(-${current * getCardWidth()}px)`;
+        dotsWrap.querySelectorAll('.carousel-dot').forEach((d, i) => {
+          d.classList.toggle('active', i === current);
+        });
+        prevBtn.disabled = current === 0;
+        nextBtn.disabled = current === maxIndex;
+      }
+
+      prevBtn.addEventListener('click', () => goTo(current - 1));
+      nextBtn.addEventListener('click', () => goTo(current + 1));
+
+      // Touch swipe
+      let touchStartX = 0;
+      track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+      track.addEventListener('touchend', e => {
+        const diff = touchStartX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 50) diff > 0 ? goTo(current + 1) : goTo(current - 1);
+      });
+
+      window.addEventListener('resize', () => goTo(current), { passive: true });
+      goTo(0);
+
+      /* ── Project modals ─────────────────────────────────── */
+      function openModal(id) {
+        const overlay = document.getElementById('modal-' + id);
+        if (!overlay) return;
+        overlay.classList.add('open');
+        document.body.style.overflow = 'hidden';
+        // Focus trap — focus close button
+        overlay.querySelector('.modal-close').focus();
+      }
+
+      function closeModal(overlay) {
+        overlay.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+
+      // Open on card click
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          const project = card.dataset.project;
+          openModal(project);
+        });
+        // Keyboard: enter/space
+        card.setAttribute('tabindex', '0');
+        card.setAttribute('role', 'button');
+        card.setAttribute('aria-label', `View ${card.querySelector('h3').textContent} project details`);
+        card.addEventListener('keydown', e => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openModal(card.dataset.project);
+          }
+        });
+      });
+
+      // Close on button click
+      document.querySelectorAll('.modal-close').forEach(btn => {
+        btn.addEventListener('click', () => closeModal(btn.closest('.modal-overlay')));
+      });
+
+      // Close on overlay click (outside modal)
+      document.querySelectorAll('.modal-overlay').forEach(overlay => {
+        overlay.addEventListener('click', e => {
+          if (e.target === overlay) closeModal(overlay);
+        });
+      });
+
+      // Close on Escape key
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+          document.querySelectorAll('.modal-overlay.open').forEach(closeModal);
+        }
+      });
+
+      /* ── Contact form feedback ──────────────────────────────── */
+      const form = document.querySelector('form');
+      if (form) {
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          const btn = form.querySelector('button[type="submit"]');
+          const original = btn.textContent;
+          btn.textContent = 'sending...';
+          btn.disabled = true;
+
+          try {
+            const res = await fetch(form.action, {
+              method: 'POST',
+              body: new FormData(form),
+              headers: { 'Accept': 'application/json' }
+            });
+            if (res.ok) {
+              btn.textContent = 'message sent! ✦';
+              btn.style.background = 'var(--green)';
+              form.reset();
+            } else {
+              throw new Error();
+            }
+          } catch {
+            btn.textContent = 'something went wrong — try emailing directly';
+            btn.style.background = '#f87171';
+          } finally {
+            setTimeout(() => {
+              btn.textContent = original;
+              btn.style.background = '';
+              btn.disabled = false;
+            }, 4000);
+          }
+        });
+      }
+
+    </script>
+
+  </body>
+</html>
