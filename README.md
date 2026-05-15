@@ -8,13 +8,12 @@
 
 ## ✦ live site
 
-🔗 [iyashicoded.com]([https://portfolio-ten-weld-87.vercel.app])
-
+🔗 [https://portfolio-ten-weld-87.vercel.app](https://portfolio-ten-weld-87.vercel.app)
 ---
 
 ## ✦ about
 
-A fully hand-coded personal portfolio site built with vanilla HTML, CSS, and JavaScript — no frameworks, no build tools, no dependencies. Every section, layout, animation, and interaction written from scratch with care.
+A fully hand-coded personal portfolio site built with vanilla HTML, CSS, and JavaScript, no frameworks, no build tools, no dependencies. Every section, layout, animation, and interaction written from scratch with care.
 
 The design system is built around a warm pastel palette, editorial serif typography, and a grainy textured background that gives the site a soft, intentional feel distinct from typical developer portfolios.
 
