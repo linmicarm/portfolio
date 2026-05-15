@@ -4,6 +4,8 @@
 
 > good engineering and beautiful design aren't a trade-off. for me, they're the standard.
 
+<img width="1349" height="796" alt="image" src="https://github.com/user-attachments/assets/d15e8a15-c74d-44bd-ba8a-141bfb57122c" />
+
 ---
 
 ## ✦ live site
