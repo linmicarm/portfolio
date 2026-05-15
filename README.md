@@ -1,4 +1,4 @@
-# iyashicoded ✦ michelle armstrong
+# personal portfolio projecct
 
 **Full-stack software engineer** building thoughtful digital experiences with clean code and intentional design.
 
