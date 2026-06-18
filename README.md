@@ -1,4 +1,4 @@
-# personal portfolio projecct
+# personal portfolio project
 
 **Full-stack software engineer** building thoughtful digital experiences with clean code and intentional design.
 
