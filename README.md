@@ -10,7 +10,7 @@
 
 ## ✦ live site
 
-🔗 [https://portfolio-ten-weld-87.vercel.app](https://portfolio-ten-weld-87.vercel.app)
+🔗 [https://iyashicoded.app](https://iyashicoded.vercel.app)
 ---
 
 ## ✦ about
