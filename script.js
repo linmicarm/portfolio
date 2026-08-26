@@ -1,7 +1,6 @@
     <!-- ══════════════════════════════════════════════════════════
          JAVASCRIPT
          ══════════════════════════════════════════════════════════ -->
-    <script>
       /* ── Glass header on scroll ─────────────────────────── */
       const header = document.getElementById('header');
       window.addEventListener('scroll', () => {
@@ -166,5 +165,3 @@
           }
         });
       }
-
-    </script>
