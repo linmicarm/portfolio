@@ -191,9 +191,36 @@
             <button class="carousel-btn" id="prev-btn" aria-label="Previous">&#8249;</button>
 
             <div class="carousel-track-outer">
-              <div class="carousel-track" id="carousel-track">
+                            <div class="carousel-track" id="carousel-track">
 
-                <!-- Card 1: hoshii -->
+                <!-- Card 1: 404 offline -->
+                <div class="project-mini" data-project="404offline">
+                  <img src="images/404offline.jpg" alt="404 offline project" />
+                  <div class="project-mini-body">
+                    <h3>404 offline</h3>
+                    <p>a full-stack community platform for atlanta's anime, gaming + cosplay scene.</p>
+                  </div>
+                </div>
+
+                <!-- Card 2: penciled in -->
+                <div class="project-mini" data-project="penciledin">
+                  <img src="images/penciledin.jpg" alt="penciled in project" />
+                  <div class="project-mini-body">
+                    <h3>penciled in</h3>
+                    <p>a real-time collaborative planning board with live multiplayer sync.</p>
+                  </div>
+                </div>
+
+                <!-- Card 3: lantern -->
+                <div class="project-mini" data-project="lantern">
+                  <img src="images/lantern.jpg" alt="lantern project" />
+                  <div class="project-mini-body">
+                    <h3>lantern</h3>
+                    <p>a multilingual community platform for niche hobby groups and small creative communities.</p>
+                  </div>
+                </div>
+
+                <!-- Card 4: hoshii -->
                 <div class="project-mini" data-project="hoshii">
                   <img src="images/hoshii.jpg" alt="hoshii project" />
                   <div class="project-mini-body">
@@ -202,16 +229,7 @@
                   </div>
                 </div>
 
-                <!-- Card 2: mochiboard -->
-                <div class="project-mini" data-project="mochiboard">
-                  <img src="images/mochiboard.jpg" alt="mochiboard project" />
-                  <div class="project-mini-body">
-                    <h3>mochiboard</h3>
-                    <p>a soft productivity dashboard for creatives.</p>
-                  </div>
-                </div>
-
-                <!-- Card 3: café compass -->
+                <!-- Card 5: café compass -->
                 <div class="project-mini" data-project="cafecompass">
                   <img src="images/cafecompass.jpg" alt="café compass project" />
                   <div class="project-mini-body">
@@ -220,16 +238,7 @@
                   </div>
                 </div>
 
-                <!-- Card 4: softshelf -->
-                <div class="project-mini" data-project="softshelf">
-                  <img src="images/softshelf.jpg" alt="softshelf project" />
-                  <div class="project-mini-body">
-                    <h3>softshelf</h3>
-                    <p>a digital bookshelf + reading journal.</p>
-                  </div>
-                </div>
-
-                <!-- Card 5: petalfm -->
+                <!-- Card 6: petalfm -->
                 <div class="project-mini" data-project="petalfm">
                   <img src="images/petalfm.jpg" alt="petalfm project" />
                   <div class="project-mini-body">
@@ -238,12 +247,21 @@
                   </div>
                 </div>
 
-                <!-- Card 6: lantern -->
-                <div class="project-mini" data-project="lantern">
-                  <img src="images/lantern.jpg" alt="lantern project" />
+                <!-- Card 7: softshelf -->
+                <div class="project-mini" data-project="softshelf">
+                  <img src="images/softshelf.jpg" alt="softshelf project" />
                   <div class="project-mini-body">
-                    <h3>lantern</h3>
-                    <p>a multilingual community platform for niche hobby groups and small creative communities.</p>
+                    <h3>softshelf</h3>
+                    <p>a digital bookshelf + reading journal.</p>
+                  </div>
+                </div>
+
+                <!-- Card 8: mochiboard -->
+                <div class="project-mini" data-project="mochiboard">
+                  <img src="images/mochiboard.jpg" alt="mochiboard project" />
+                  <div class="project-mini-body">
+                    <h3>mochiboard</h3>
+                    <p>a soft productivity dashboard for creatives.</p>
                   </div>
                 </div>
 
@@ -411,7 +429,57 @@
     <!-- ══════════════════════════════════════════════════════════
          PROJECT MODALS
          ══════════════════════════════════════════════════════════ -->
+    
+    <!-- 404 offline -->
+    <div class="modal-overlay" id="modal-404offline" role="dialog" aria-modal="true" aria-label="404 offline project">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img src="images/404offline.jpg" alt="404 offline" />
+        <div class="modal-body">
+          <h3>404 offline</h3>
+          <p class="modal-short">a full-stack community platform for atlanta's anime, gaming, cosplay, and kawaii scene.</p>
+          <p class="modal-long">architected a full-stack platform with a react frontend and a restful express api spanning 5 resource types and 15+ endpoints, with relational data modeled through prisma orm. implemented geolocation-based sorting, global search, and tag filtering, plus an interactive leaflet map with category-colored custom pins. engineered features including going-count persistence, .ics calendar downloads, threaded comments, dark mode, and skeleton loading — so the local scene stays alive between con seasons.</p>
+          <div class="modal-tags">
+            <span class="modal-tag">react</span>
+            <span class="modal-tag">vite</span>
+            <span class="modal-tag">node.js</span>
+            <span class="modal-tag">express</span>
+            <span class="modal-tag">postgresql</span>
+            <span class="modal-tag">prisma</span>
+            <span class="modal-tag">leaflet</span>
+          </div>
+          <div class="modal-actions">
+            <a href="https://404-offline.vercel.app" class="btn-live">live</a>
+            <a href="https://github.com/linmicarm/404-offline" class="btn-code">code</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- penciled in -->
+    <div class="modal-overlay" id="modal-penciledin" role="dialog" aria-modal="true" aria-label="penciled in project">
+      <div class="modal">
+        <button class="modal-close" aria-label="Close">✕</button>
+        <img src="images/penciledin.jpg" alt="penciled in" />
+        <div class="modal-body">
+          <h3>penciled in</h3>
+          <p class="modal-short">a real-time collaborative planning board, because plans change.</p>
+          <p class="modal-long">built a real-time collaborative kanban board with live drag-and-drop, card creation, and presence syncing across clients over websockets. designed an authoritative server that broadcasts move events rather than full board state, resolving concurrent edits deterministically so two people can drag the same card without breaking. implemented write-behind persistence to postgres to keep drag latency at in-memory speed, with ci running in github actions on every push.</p>
+          <div class="modal-tags">
+            <span class="modal-tag">react</span>
+            <span class="modal-tag">typescript</span>
+            <span class="modal-tag">node.js</span>
+            <span class="modal-tag">express</span>
+            <span class="modal-tag">socket.io</span>
+            <span class="modal-tag">postgresql</span>
+          </div>
+          <div class="modal-actions">
+            <a href="https://penciled-in-app.vercel.app" class="btn-live">live</a>
+            <a href="https://github.com/linmicarm/penciled-in" class="btn-code">code</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- hoshii -->
     <div class="modal-overlay" id="modal-hoshii" role="dialog" aria-modal="true" aria-label="hoshii project">
       <div class="modal">
